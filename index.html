@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Trade Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Live Trade Data</h1>
+        
+        <!-- Display live USD value -->
+        <div>
+            <h2>Live USD Value</h2>
+            <p id="usd-value">Loading...</p>
+        </div>
+
+        <!-- Display trade history -->
+        <div>
+            <h2>Trade History</h2>
+            <ul id="trade-history"></ul>
+        </div>
+
+        <!-- Display IPFS data -->
+        <div>
+            <h2>IPFS Data</h2>
+            <p id="ipfs-data">Loading...</p>
+        </div>
+
+        <!-- Display live price chart -->
+        <div>
+            <h2>Price Chart</h2>
+            <canvas id="price-chart"></canvas>
+        </div>
+        
+        <button id="connect-btn">Connect Wallet</button>
+    </div>
+
+    <script src="web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "description": "A decentralized stablecoin pegged to USD",
+    "image": "https://gateway.pinata.cloud/ipfs/bafkreidckjcuyxaypmdkqojq7v2qn7wgc6q5xthatdtapk36aut2kd55eq",
+    "properties": {
+      "type": "cryptocurrency",
+      "platform": "Binance Smart Chain"
+    }
+  }
+  
